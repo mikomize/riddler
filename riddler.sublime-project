@@ -1,0 +1,13 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "."
+		}
+	],
+	"settings": {
+		"haxime_build_hxml_file": "build.hxml",
+		"haxime_completion_server_enabled": false
+	}
+}

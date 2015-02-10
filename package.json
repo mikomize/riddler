@@ -1,0 +1,22 @@
+{
+	"name": "riddler",
+	"description": "",
+	"dependencies": {
+		"body-parser": "1.9.2",
+		"basic-auth": "*",
+		"express" : "4.1.1",
+		"hiredis" : "0.1.17",
+		"nconf" : "0.6.9",
+		"redis" : "0.9.1",
+		"serve-static": "1.1.0",
+		"winston" : "0.7.2",
+		"winston-syslog": "0.2.2",
+		"xml2js": "0.4.0",
+		"moment": "2.8.2",
+		"moment-timezone": "0.2.1",
+		"underscore": "*",
+		"source-map-support": "0.2.7",
+		"multiparty": "*",
+		"request": "*"
+	}
+}

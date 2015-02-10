@@ -1,0 +1,21 @@
+<html>
+	<head>
+	</head>
+
+	<body>
+		<h1> Solve the problem described below, remeber, clock is ticking!</h1>
+		<div>
+			<%= riddle.problem %>
+		</div>
+		<div>
+			Good Luck!
+		</div>
+		<form action="/riddle/<%= candidate.id  %>/upload" method="POST" enctype="multipart/form-data">
+			<input type="submit" name="submit" value="upload solution">
+			<input type="file" name="solution">
+		</form>
+		<% for (var i in candidate.files) { %>
+			<p><span><%= moment(candidate.files[i].uploadedAt).format("H:mm") %> </span> <a href="<%= "/static/" + candidate.files[i].path %>"/><%= candidate.files[i].originalName %></a></p>
+		<% } %>
+	</body>
+</html>

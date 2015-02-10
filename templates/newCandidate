@@ -1,0 +1,22 @@
+<html>
+	<head>
+	</head>
+
+	<body>
+		<form method="POST">
+			Candidate:
+			<select name="id">
+				<% for (var i in cards) { %>
+					 <option value="<%= cards[i].id %>"><%= cards[i].name %></option>
+				<% } %>
+			</select>
+			Riddle to solve:
+			<select name="riddle">
+				<% for (var i in riddles) { %>
+					 <option value="<%= riddles[i] %>"><%= riddles[i] %></option>
+				<% } %>
+			</select>
+			<button type="submit">Set up candidate</button>	
+		</form>
+	</body>
+</html>

@@ -1,0 +1,16 @@
+<html>
+	<head>
+	</head>
+
+	<body>
+		<h1> Welcome! </h1>
+		<div> This riddle is still sealed. Read introduction and when your are ready to take test, hit Unseal button down below.</div>
+		</div>
+		<div>
+			<%= riddle.intro %>
+		</div>
+		<form method="POST">
+			<button type="submit">Unseal</button>
+		</form>
+	</body>
+</html>

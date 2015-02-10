@@ -1,0 +1,9 @@
+-js riddler.js
+-debug
+-main Server
+-lib minject 
+-D minject
+-lib nodejs
+-D nodejs
+-lib yawf
+-D yawf

@@ -1,0 +1,19 @@
+{
+	"redis": {
+		"ip": "127.0.0.1",
+		"port": "6379",
+		"db": 5
+	},
+	"auth": {
+		"login": "admin",
+		"pass": "admin"
+	},
+	"statics": [
+		["/static", "static"]
+	],
+	"trello": {
+		"key": "[APP_KEY]",
+		"token": "[AUTH_TOKEN]",
+		"listId": "[LIST_ID]"
+	}	
+}
